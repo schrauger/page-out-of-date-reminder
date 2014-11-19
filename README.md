@@ -10,14 +10,13 @@ has not been edited in a while.
 * Frozen - age and link validity are irrelivant. page will never be updated (it is archived or historical)
 
 ### Planned Features (all user-configurable):
-
-
 #### Detection of stale pages
 * minimum page time threshold - time before a page is considered stale
-* reminder interval - time between reminders about a stale page, after threshold has been reached
+* reminder interval - time between reminders about a stale page, after threshold has been reached 
  * ex if threshold is 1 year and interval is 6 months,
    owner will get alerted at 1 year, 1 year & 6 months, 2 years, etc
    until the page is updated (freshened) or marked as frozen.
+ * Possibly also allow diminishing interval that gets more persistant over time
 * Allow post specific overrides for threshold and interval
 * Allow global default as well as site-specific setting
 * Allow post type or tag to have custom thresholds and intervals
@@ -28,6 +27,9 @@ has not been edited in a while.
 * Default to Author
 * Option to detect page owner based on last X number of edits
  * for example, if Author is ABC, but the last 4/5 edits were by DEF, assume owner is currently DEF
+* Allow manually set page owner
+ * Would be neat to allow non-WordPress users to be owners, such as a group or mailing list
+* Allow multiple owners (or at least multiple contacts for when a page goes stale)
 
 #### Multiple alert methods
 * email
