@@ -4,7 +4,7 @@ Page Out Of Date Reminder
 This WordPress plugin can automatically alert a page owner when a page
 has not been edited in a while.
 
-Page indicators
+### Page indicators
 * Fresh - page has been updated recently (time elapsed < minimum threshold) and all links work
 * Stale - page has not been updated recently (time elapsed >= minimum threshold), or some links are broken
 * Frozen - age and link validity are irrelivant. page will never be updated (it is archived or historical)
