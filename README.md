@@ -16,7 +16,7 @@ has not been edited in a while.
  * ex if threshold is 1 year and interval is 6 months,
    owner will get alerted at 1 year, 1 year & 6 months, 2 years, etc
    until the page is updated (freshened) or marked as frozen.
- * Possibly also allow diminishing interval that gets more persistant over time
+ * Possibly also allow diminishing interval that gets more persistent over time
 * Allow post specific overrides for threshold and interval
 * Allow global default as well as site-specific setting
 * Allow post type or tag to have custom thresholds and intervals
